@@ -24,4 +24,12 @@ public class ConnectionWrapper extends ConnectionDelegate {
     else
       super.commit();
   }
+
+  public static void enableCommit() {
+    IS_INSISTENT = false;
+  }
+
+  public static void disableCommit() {
+    IS_INSISTENT = true;
+  }
 }

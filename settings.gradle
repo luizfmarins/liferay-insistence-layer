@@ -1,4 +1,5 @@
 rootProject.name = 'insistence.layer'
 include 'insistence.layer.jdbc.driver'
 include 'liferay.insistence.layer.jdbc.driver'
+include 'insistence.layer.api'
 
