@@ -9,6 +9,7 @@ jar {
 
 dependencies {
     compile project(':insistence.layer.jdbc.driver')
+    compile project(':insistence.layer.api')
 
     compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "2.24.0"
 

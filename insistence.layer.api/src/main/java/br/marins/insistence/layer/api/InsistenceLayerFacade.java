@@ -13,4 +13,8 @@ public final class InsistenceLayerFacade {
   public static void disableInsistenceLayer() {
     ConnectionWrapper.enableCommit();
   }
+
+  public static void rollback() {
+    ConnectionWrapper.rollbackConnection();
+  }
 }
